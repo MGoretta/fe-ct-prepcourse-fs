@@ -130,9 +130,9 @@ function sumarLikesDeUsuario(objetoUsuario) {
        }
      }
    }
- 
+ console.log(totalLikes)
    return totalLikes;
- }
+ } 
 
 function agregarMetodoCalculoDescuento(objetoProducto) {
    // Agrega una propiedad al "objetoProducto" con el nombre "calcularPrecioDescuento".
